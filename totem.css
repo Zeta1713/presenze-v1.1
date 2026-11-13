@@ -1,0 +1,21 @@
+:root{--navy:#13294b;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Roboto,Arial,sans-serif;color:#1c2531}
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:var(--navy);overflow:hidden}
+#v{height:100%;display:flex;align-items:center;justify-content:center}
+.box{background:#fff;border-radius:16px;padding:24px;width:min(420px,92vw)}
+.box h2{margin:0 0 10px;color:var(--navy)}.muted{color:#6a7686}
+label{display:block;font-size:13px;color:#6a7686;font-weight:600;margin:12px 0}
+input{display:block;width:100%;margin-top:6px;font-size:18px;padding:12px;border:1px solid #dfe4ec;border-radius:10px}
+.btn{display:block;width:100%;border:0;border-radius:12px;background:#2563c9;color:#fff;font-weight:700;font-size:17px;padding:14px;margin-top:12px}
+.err{color:#d33a2c;min-height:18px}
+.totem{height:100%;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:3vh 3vw;color:#fff;text-align:center}
+.t-az{font-size:clamp(16px,2.6vh,28px);font-weight:700;color:#c9d4e6;letter-spacing:.5px}
+.t-ora{font-size:clamp(40px,9vh,110px);font-weight:800;font-variant-numeric:tabular-nums;line-height:1.05}
+.t-data{font-size:clamp(14px,2.4vh,26px);color:#8fa1bd;text-transform:capitalize}
+.t-qr{background:#fff;border-radius:22px;padding:2vh;width:min(58vh,82vw);aspect-ratio:1;display:flex;transition:opacity .2s}
+.t-qr svg{width:100%;height:100%}.t-qr.spento{opacity:.15}
+.t-bar{width:min(58vh,82vw);height:8px;background:rgba(255,255,255,.15);border-radius:4px;overflow:hidden;margin-top:-1vh}
+.t-bar i{display:block;height:100%;width:100%;background:#1f9d55}
+.t-istr{font-size:clamp(15px,2.6vh,28px);color:#dfe7f3;max-width:90vw}
+.t-foot{display:flex;justify-content:space-between;width:100%;align-items:center}
+.t-stato{font-size:13px;color:#8fa1bd}.t-stato.ok::before{content:"● ";color:#1f9d55}.t-stato.err{color:#ffb4a8}.t-stato.err::before{content:"● ";color:#d33a2c}
+.t-menu{background:transparent;border:0;color:#8fa1bd;font-size:24px;padding:4px 10px}
