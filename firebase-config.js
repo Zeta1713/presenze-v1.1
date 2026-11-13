@@ -7,5 +7,5 @@ window.FIREBASE_CONFIG = {
   messagingSenderId: "644805255854",
   appId: "1:644805255854:web:37094ae33978da0806433f",
   // indirizzo pubblico del sito (GitHub Pages), con la barra finale
-  urlPubblico: "https://zeta1713.github.io/presenze/"
+  urlPubblico: "https://zeta1713.github.io/presenze-v1.1/"
 };
